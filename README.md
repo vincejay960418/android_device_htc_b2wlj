@@ -1,26 +1,26 @@
-# Device configuration for HTC One (M8)
+# Device configuration for HTC HTL23 HTC J Butterfly(2nd gen).
 
 ## Spec Sheet
 
 | Feature                 | Specification                     |
 | :---------------------- | :-------------------------------- |
-| CPU                     | Quad-core 2.3 GHz Krait 400       |
+| CPU                     | Quad-core 2.5 GHz Krait 400       |
 | Chipset                 | Qualcomm MSM8974AB Snapdragon 801 |
 | GPU                     | Adreno 330                        |
 | Memory                  | 2GB RAM                           |
-| Shipped Android Version | 4.4.2                             |
-| Storage                 | 16/32 GB                          |
+| Shipped Android Version | 4.4.4                             |
+| Storage                 | 32 GB                             |
 | MicroSD                 | Up to 128GB                       |
-| Battery                 | 2600 mAh                          |
-| Dimensions              | 146.4 x 70.6 x 9.4 mm             |
+| Battery                 | 2700 mAh                          |
+| Dimensions              | 145 x 70 x 10 mm                  |
 | Display                 | 1080 x 1920 pixels, Super LCD3    |
-| Camera                  | Dual 4 MP, 2688х1520 pixels       |
-| Release Date            | March 2014                        |
+| Camera                  | Dual 13 MP, 2688х1520 pixels      |
+| Release Date            | Aug 2014                          |
 
 
 ## Device Picture
 
-![HTC One M8](http://i.imgur.com/zIRfcMC.png "HTC One M8")
+![HTC HTL23](http://cdn-media.kddi.com/app/publish/image/s_product/htl23_detail_00.jpg "HTC J butterfly")
 
 ## Copyright
 

@@ -18,8 +18,8 @@
 
 set -e
 
-export DEVICE=m8
-export DEVICE_COMMON=m8-common
+export DEVICE=b2wlj
+export DEVICE_COMMON=b2wlj-common
 export VENDOR=htc
 
 export DEVICE_BRINGUP_YEAR=2014

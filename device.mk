@@ -15,13 +15,13 @@
 #
 
 # Local overlays
-DEVICE_PACKAGE_OVERLAYS += device/htc/m8/overlay
+DEVICE_PACKAGE_OVERLAYS += device/htc/b2wlj/overlay
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/htc/m8/m8-vendor.mk)
+$(call inherit-product-if-exists, vendor/htc/b2wlj/b2wlj-vendor.mk)
 
-# Inherit from m8-common
-$(call inherit-product, device/htc/m8-common/m8-common.mk)
+# Inherit from b2wlj-common
+$(call inherit-product, device/htc/b2wlj-common/b2wlj-common.mk)
 
 # Init
 PRODUCT_PACKAGES += \

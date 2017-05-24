@@ -1,6 +1,6 @@
 LOCAL_PATH:= $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),m8)
+ifeq ($(TARGET_DEVICE),b2wlj)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE       := init.variant.rc

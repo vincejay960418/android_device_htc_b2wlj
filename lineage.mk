@@ -14,15 +14,18 @@
 # limitations under the License.
 #
 
-# Inherit from m8 device
-$(call inherit-product, device/htc/m8/device.mk)
+# Inherit from b2wlj device
+$(call inherit-product, device/htc/b2wlj/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_m8
-PRODUCT_DEVICE := m8
+PRODUCT_NAME := lineage_b2wlj
+PRODUCT_DEVICE := b2wlj
 PRODUCT_BRAND := htc
 PRODUCT_MANUFACTURER := htc
-PRODUCT_MODEL := One M8
+PRODUCT_MODEL := HTL23
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT="htc/HTL23_jp_kdi/htc_b2wlj:4.4.4/KTU84P/515340.5:user/release-keys" \
+    PRIVATE_BUILD_DESC="2.14.970.5 CL515340 release-keys"
