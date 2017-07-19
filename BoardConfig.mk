@@ -30,11 +30,18 @@
 -include device/htc/b2wlj-common/BoardConfigCommon.mk
 
 # Model Ids
-# 0P6B10000 - KDDI
-# 0P6B20000 - International
+# 0PAG10000 - KDDI
+# 0PAG20000 - International
+# 0P6B10000 - International
+# 0P6B12000 - AT&T/Dev Edition
+# 0P6B13000 - T-Mobile
+# 0P6B16000 - Telus/Rogers (Canada)
+# 0P6B20000 - Verizon
+# 0P6B70000 - Sprint
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := htc_b2wlj,htc_b2ul
+TARGET_OTA_ASSERT_DEVICE := 
+htc_b2wlj,htc_b2ul,htc_m8,htc_m8whl,htc_m8wl,m8,m8wl,m8wlv,m8vzw,m8whl,m8spr
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_b2wlj_defconfig
@@ -56,3 +63,4 @@ TARGET_UNIFIED_DEVICE := true
 
 # Inherit from the proprietary version
 -include vendor/htc/b2wlj/BoardConfigVendor.mk
+

@@ -71,7 +71,7 @@ void vendor_load_properties()
 
     bootmid = property_get("ro.boot.mid");
 
-    if (bootmid == "0P6B10000") {
+    if (bootmid == "0PAG10000") {
         /* b2wlj */
         common_properties();
         cdma_properties("0", "10");
