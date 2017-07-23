@@ -76,7 +76,7 @@ void vendor_load_properties()
         common_properties();
         cdma_properties("0", "10");
         property_set("ro.product.model", "b2wlj");
-        property_set("ro.build.fingerprint", "htc/HTL23/htc_b2wlj:6.0/MRA58K/708002.3:user/release-keys");
+        property_set("ro.build.fingerprint", "htc/HTL23_jp_kdi/htc_b2wlj:4.4.4/KTU84P/515340.5:user/release-keys");
         property_set("ro.build.description", "6.21.605.3 CL708002 release-keys");
         property_set("ro.product.device", "htc_b2wlj");
         property_set("ro.build.product", "htc_b2wlj");
